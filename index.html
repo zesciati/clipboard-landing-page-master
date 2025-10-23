@@ -14,24 +14,26 @@
     rel="stylesheet">
 </head>
 
-<body class="bg-[url(/images/bg-header-mobile.png)] bg-no-repeat font-(family-name:--font-bai-jamjure)">
+<body
+  class="max-md:bg-[url(/images/bg-header-desktop.png)] bg-no-repeat font-(family-name:--font-bai-jamjure) md:bg-[url(/images/bg-header-desktop.png)] md:bg-size-[100%]">
 
-  <header class="flex flex-col p-(--space-s)">
+  <header class="flex flex-col p-(--space-s) ">
     <img src="./images/logo.svg" alt="copyright-logo" width="125" class="self-center mt-[6rem] mb-[2rem]">
     <div class="text-center ">
-      <h3 class="font-semibold text-(length:--step-5) text-(--gray-700) mt-[.33rem] ">A history of everything you copy
+      <h3 class="font-semibold text-(length:--step-5) text-(--gray-700)">A history of everything you copy
       </h3>
-      <p class="text-(--gray-500) p-[1rem] mb-[1.5rem]">Clipboard allows you to track and organize everything you copy.
+      <p class="text-(--gray-500) p-[1rem] mb-[1.5rem] sm:text-(length:--step-0)  ">Clipboard allows you to track and organize everything you copy.
         Instantly access your clipboard on all your
         devices.</p>
     </div>
-    <div class="flex flex-col text-center">
+    <div class="flex flex-col text-center sm:flex-row md:justify-center ">
       <a href="" target="_blank"
-        class="bg-(--green-500) text-white mb-[1rem] rounded-3xl p-(--space-xs) shadow-[0_3px_#219F89] font-semibold">Download
+        class="bg-(--green-500) text-white  rounded-3xl p-(--space-xs) shadow-[0_3px_#219F89] font-semibold sm:px-[2rem] sm:text-(length:--step-0)">Download
         for
         IOS</a>
       <a href="" target="_blank"
-        class="bg-(--blue-100) text-white rounded-3xl p-(--space-xs) shadow-[0_3px_#5161DA] font-semibold">Download for
+        class="bg-(--blue-100) text-white rounded-3xl p-(--space-xs) shadow-[0_3px_#5161DA] font-semibold mt-[1rem] sm:mt-0 sm:ml-[1rem] sm:px-[2rem] sm:text-(length:--step-0)">Download
+        for
         Mac</a>
     </div>
   </header>
@@ -112,11 +114,11 @@
       sync with iCloud and you're ready to start adding to your clipboard.</p>
     <div class="flex flex-col text-center mt-[3rem]">
       <a href="" target="_blank"
-        class="bg-(--green-500) text-white mb-[1rem] rounded-3xl p-(--space-xs) shadow-[0_3px_#219F89] font-semibold">Download
+        class="bg-(--green-500) text-white mb-[1rem] rounded-3xl p-(--space-xs) shadow-[0_3px_#219F89] font-semibold sm:text-(length:--step-0)">Download
         for
         IOS</a>
       <a href="" target="_blank"
-        class="bg-(--blue-100) text-white rounded-3xl p-(--space-xs) shadow-[0_3px_#5161DA] font-semibold">Download for
+        class="bg-(--blue-100) text-white rounded-3xl p-(--space-xs) shadow-[0_3px_#5161DA] font-semibold sm:text-(length:--step-0)">Download for
         Mac</a>
     </div>
   </section>
