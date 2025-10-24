@@ -145,21 +145,23 @@
     </div>
   </section>
 
-  <footer class="flex flex-col bg-gray-50 mt-[8rem] md:flex-row md:justify-around md:w-[100%] min-h[150px]">
-    <img src="./images/logo.svg" alt="copyright-logo" width="65" class="self-center mb-[2rem] mt-[2rem]">
-    <div class="md:grid md:w-[500px] md:grid-cols-[repeat(auto-fit,minmax(280px,1fr))] md:[grid-template-areas:'faq_privacy_install' 'contact_press']">
-      <p class="[grid-area:faq] text-center text-(length:--step-1)">FAQs</p>
-      <p class="my-[1rem] [grid-area:contact] text-center text-(length:--step-1)">Contact Us</p>
-      <p class="[grid-area:privacy] text-center text-(length:--step-1)">Privacy Policy</p>
-      <p class="my-[1rem] [grid-area:press] text-center text-(length:--step-1)">Press Kit</p>
-      <p class="[grid-area:install] text-center text-(length:--step-1)">Install Guide</p>
+  <footer class="flex max-sm:flex-col bg-gray-50 mt-[8rem] md:justify-evenly  md:items-center">
+    <img src="./images/logo.svg" alt="copyright-logo" width="65"
+      class="self-center mb-[2rem] mt-[2rem] [grid-area:img]">
+    <div class="md:grid max-sm:text-center text-(length:--step-1) md:text-(length:--step-0) md:grid-cols-[repeat(3,1fr)] md:[grid-template-areas:'faq_privacy_install''contact_press_.'] gap-x-[12px] lg:gap-x-[80px] text-(--gray-500) md:mt-[1rem]">
+      <p class="[grid-area:faq]">FAQs</p>
+      <p class="my-[1rem] [grid-area:contact]">Contact Us </p>
+      <p class="[grid-area:privacy]">Privacy Policy</p>
+      <p class="my-[1rem] [grid-area:press]">Press Kit</p>
+      <p class="[grid-area:install]">Install Guide</p>
     </div>
-    <div class="flex justify-evenly my-[3rem] md:w-[20%] ">
-      <img src="./images/icon-facebook.svg" alt="facebook">
-      <img src="./images/icon-twitter.svg" alt="twitter">
-      <img src="./images/icon-instagram.svg" alt="instagram">
+    <div class="flex justify-evenly my-[3rem] md:w-[20%]  ">
+      <img src="./images/icon-facebook.svg" alt="facebook" class="md:w-5 md:h-5">
+      <img src="./images/icon-twitter.svg" alt="twitter" class="md:w-5 md:h-5">
+      <img src="./images/icon-instagram.svg" alt="instagram" class="md:w-5 md:h-5">
     </div>
   </footer>
+
 
 </body>
 
